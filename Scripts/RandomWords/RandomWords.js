@@ -5,4 +5,6 @@ console.log(word_list);
 
 var item = word_list[Math.floor(Math.random()*word_list.length)];
 
+console.log(item);
+
 document.getElementById("word").value = item.id;
