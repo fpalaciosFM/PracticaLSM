@@ -10,4 +10,4 @@ const word_list = JSON.parse(JSON.stringify(word_list_json));
 const item = word_list.word_list[Math.floor(Math.random()*word_list.word_list.length)];
 console.log(item);
 
-document.getElementById('word').value = item.id;
+document.getElementById('word').innerHTML = item.id;
